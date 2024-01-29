@@ -1,0 +1,29 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "Products for Modas Chic fake store api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jander1016/fakeapi.git"
+  },
+  "keywords": [
+    "modaschic",
+    "json-server",
+    "javascript",
+    "API"
+  ],
+  "author": "Jander Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jander1016/fakeapi/issues"
+  },
+  "homepage": "ttps://github.com/Jander1016/fakeapi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
