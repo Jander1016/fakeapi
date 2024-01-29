@@ -85,8 +85,6 @@ Now it's time to run the command:
 npm install json-server cors
 ```
 
-![Alt text](image.png)
-
 You'll see that both **cors** and ***json-server*** have been added to the package.json.
 
 ### Step 4

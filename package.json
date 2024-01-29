@@ -24,6 +24,6 @@
   "homepage": "ttps://github.com/Jander1016/fakeapi#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-server": "^1.0.0-alpha.21"
+    "json-server": "^0.17.3"
   }
 }
