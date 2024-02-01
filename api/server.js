@@ -1,6 +1,6 @@
 // See https://github.com/typicode/json-server#module
 
-import {create, router as _router, defaults } from 'json-server';
+import {create, router as _router, defaults,rewriter } from 'json-server';
 
 const server = create()
 const router = _router('db.json')
@@ -8,7 +8,7 @@ const middlewares = defaults()
 
 server.use(middlewares)
 
-server.use(jsonServer.rewriter({
+server.use(rewriter({
     '/api/*': '/$1',
     '/product/:resource/:id/show': '/:resource/:id'
 }))
