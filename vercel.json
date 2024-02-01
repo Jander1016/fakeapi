@@ -2,10 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "api/server.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["data.json"]
+        "includeFiles": ["db.json"]
       }
     }
   ],
